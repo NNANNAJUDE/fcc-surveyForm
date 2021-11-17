@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <main id="container">
+    <h1 id="title" title="Please kindly contribute your quota. thanks!">SURVEY FORM</h1>
+    <P id="description"> For the interest of research and propagation of science. Please kindly take few minutes of your time to answer the following questions.</P>
+    <form action="#" id="survey-form">
+        <label for="#name" id="name-label">Name:<input type="text" id="name" name="name" placeholder="Kindly eneter your name ..."></label>
+        <br>
+        <br>
+        <label for="#email" id="email-label">E-mail: <input type="email" name="number" id="email" placeholder="Kindly enter your email ..."></label> <br> <br>
+        <label for="#number" id="number-label">Number: <input type="number" name="number" id="number" placeholder="Kindly enetr your phone number ..." min=8 max=12></label> <br> <br>
+        <label for="#hobby" id="hobby-label">Select your hobbies: 
+        <select name="hobby" id="dropdown" >
+            <option value="eating">Eating</option>
+            <option value="travelling">Travelling</option>
+            <option value="playing">Playing</option>
+            <option value="sports">Sports</option>
+        </select>
+    </label>
+    <br>
+    <br>
+    <label for="gender" id="gender-label">Choose your gender: <br>
+    <label for="male" id="male-label">Male
+    <input type="radio" name="gender" id="male">
+    </label> 
+    <label for="female" id="female-label">Female
+    <input type="radio" name="gender" id="female">
+</label>
+</label> <br>
+<br>
+<label for="place" id="place-label">Best Places To live in Nigeria: <br>
+    <label for="abuja">Abuja
+    <input type="checkbox" id="abuja" value="abuja">
+</label>
+<label for="awka">Awka
+   <input type="checkbox" value="awka" id="awka"> 
+</label>
+</label>
+<label for="lagos" id="lagos-label">Lagos
+    <input type="checkbox" value="lagos" id="lagos">
+</label>
+<label for="portharcourt" id="portharcourt">Portharcourt
+    <input type="checkbox" value="portharcourt" id="portharcourt">
+</label> <br>
+<br>
+<label for="comment" id="comment-label">For Additional Comments:
+    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Kindly give us additional informatios ..."></textarea>
+</label> <br>
+<br>
+<button id="submit">SUBMIT</button>
+    </form>
+</main>
+</body>
+</html>

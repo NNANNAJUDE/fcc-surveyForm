@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 70px 100px;
+}
+#container{
+    padding: 10px 0px;
+    background-color: rgb(192, 180, 180);
+    border: 2px solid rgb(33, 56, 33);
+    border-radius: 10%;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+#title{
+    text-align: center;
+    color: rgb(39, 12, 12);
+    font-size: 240%;
+    padding: 10px;
+    text-decoration: underline rgb(36, 12, 12);
+    text-shadow: 1px 0px 1px brown;
+}
+#description{
+    font-size: 20px;
+    color: rgb(68, 32, 32);
+    padding: 10px;
+}
+label{
+    font-size: 20px;
+    color: rgb(68, 32, 32);
+}
+input{
+    margin-left: 20px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10%;
+    width: 50%;
+    color: rgb(68, 32, 32);
+    font-size: 20px;
+    background-color: rgb(243, 226, 226);
+    box-shadow: 0 5px 5px 0;
+    transition-duration: 2s;
+}
+input:focus{
+    width: 70%;
+}
+select{
+    color: rgb(68, 32, 32);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20%;
+    background-color: rgb(243, 226, 226);
+    transition-duration: 2s;
+}
+#gender{
+    display: flex;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    margin: 0px;
+    padding: 0px;
+    width: 5%;
+    border-radius: 0%;
+}
+#comment{
+    background-color: rgb(243, 226, 226);
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 0 5px 10px 0;
+    width: 40%;
+    border-radius: 10%;
+    transition-duration: 1s;
+}
+#comment:focus{
+    width: 50%;
+}
+#submit{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(51, 25, 7);
+    border: none;
+    outline: none;
+    transition-duration: 2s;
+    border-radius: 20%;
+}
+#submit:hover{
+    padding: 10px;
+}
